@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  display: inline-block;
+}
+
+a img {
+  display: block;
+}
+
+.container {
+  padding: 0 10px;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+body {
+  background: #EAEBF6;
+}
+
+.header {
+  text-align: center;
+  box-shadow: 0px 10px 30px 0px rgba(69, 88, 190, 0.1);
+}
+.header__title {
+  font-size: 48px;
+}
+.header__text {
+  font-size: 36px;
+}
+
+.product-list {
+  justify-content: center;
+  box-shadow: 0px 10px 30px 0px rgba(69, 88, 190, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 13px 76px 13px 86px;
+  margin-bottom: 20px;
+}
+.product-list .slick-btn {
+  width: 40px !important;
+  height: 40px;
+  background-color: #F3F3F3;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-prev {
+  position: absolute;
+  z-index: 2;
+  left: 25px;
+}
+
+.slick-next {
+  position: absolute;
+  z-index: 2;
+  right: 25px;
+}
+
+.item {
+  width: 58px;
+  height: 58px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.item:hover {
+  border-radius: 15px;
+  background: #23ACDE;
+}
+
+.content-box {
+  text-align: center;
+  box-shadow: 0px 10px 30px 0px rgba(69, 88, 190, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content-box img {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .product-list {
+    padding: 13px 35px;
+  }
+}/*# sourceMappingURL=style.css.map */
